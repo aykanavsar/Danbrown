@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Brown Tribute</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #aaa;
+            text-align: left;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p, li {
+            text-align: justify;
+            color: #666;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        blockquote {
+            font-style: italic;
+            color: #444;
+            padding: 10px;
+            background: #eee;
+            border-left: 5px solid #333;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="info.html">Info</a>
+        <a href="books.html">Books</a>
+    </nav>
+
+    <div class="container">
+        <h1>Dan Brown</h1>
+        <img src="dan-brown.jpg" alt="Dan Brown">
+        <blockquote>
+            "Men go to far greater lengths to avoid what they fear than to obtain what they desire." - Dan Brown
+        </blockquote>
+    </div>
+
+    <div class="container">
+        <h2>Biography</h2>
+        <p>Dan Brown, born on June 22, 1964, is an American author best known for his thriller novels, including "The Da Vinci Code," "Angels & Demons," and "Inferno." His works often explore themes of cryptography, symbols, and secret societies.</p>
+        <p>Brown's novels have been translated into more than 50 languages and have sold millions of copies worldwide. His storytelling blends historical and scientific references, making his books both thrilling and intellectually engaging.</p>
+    </div>
+
+    <div class="container">
+        <h2>Books</h2>
+        <ul>
+            <li>Angels & Demons (2000)</li>
+            <li>Deception Point (2001)</li>
+            <li>The Da Vinci Code (2003)</li>
+            <li>The Lost Symbol (2009)</li>
+            <li>Inferno (2013)</li>
+            <li>Origin (2017)</li>
+            <li>Wild Symphony (2020)</li>
+        </ul>
+    </div>
+
+    <footer>
+        Page Made For Tribute Website Assignment
+    </footer>
+</body>
+</html>
